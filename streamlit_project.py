@@ -12,7 +12,7 @@ import streamlit as st
 from mplsoccer import VerticalPitch
 
 
-st.title("Euros 2024 Shot Map")
+st.title("Euros 2024 Shot Map, Tester by Rishi Modi")
 st.subheader("Filter to any team/player to see all their shots taken!")
 
 df = pd.read_csv('euros_2024_shot_map.csv')
